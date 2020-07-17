@@ -222,7 +222,7 @@ MonoBehaviour:
   m_MinSize: {x: 478, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 127
+  controlID: 35
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_MinSize: {x: 478, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 128
+  controlID: 36
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -267,8 +267,8 @@ MonoBehaviour:
     y: 0
     width: 914
     height: 627
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -303,7 +303,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 14352
+  m_LastSelectedObjectID: -15720
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -458,9 +458,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.42918754, y: -0.5069494, z: 0.35127258}
+    m_Target: {x: -0.08545615, y: -1.6669669, z: 1.3200016}
     speed: 2
-    m_Value: {x: -0.42918754, y: -0.5069494, z: 0.35127258}
+    m_Value: {x: -0.08545615, y: -1.6669669, z: 1.3200016}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -506,20 +506,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: 0.43706417, y: -0.014839451, z: 0.007212213, w: 0.8992788}
     speed: 2
-    m_Value: {x: -0, y: 0, z: -0, w: -1}
+    m_Value: {x: 0.43706423, y: -0.014839453, z: 0.0072122137, w: 0.89927894}
   m_Size:
-    m_Target: 4.4004035
+    m_Target: 4.010741
     speed: 2
-    m_Value: 4.4004035
+    m_Value: 4.010741
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 1.1
+    m_SpeedNormalized: 0.53
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -602,20 +602,20 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefubs/4 hardcore
   m_ViewMode: 1
   m_StartGridSize: 78
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefubs/4 hardcore
   m_LastFoldersGridSize: 78
   m_LastProjectPath: "D:\\\u041F\u0440\u043E\u044D\u043A\u0442\u044B\\Game\\FallTheBall"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0e3e0000
-    m_LastClickedID: 15886
-    m_ExpandedIDs: 00000000f83d000000ca9a3b
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 9c3f0000
+    m_LastClickedID: 16284
+    m_ExpandedIDs: 00000000f83d00000a3e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -670,7 +670,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000ce5d000008ecffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -766,9 +766,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 60fbffff
+      m_SelectedIDs: e68cffff
+      m_LastClickedID: -29466
+      m_ExpandedIDs: 428bffff60fbffff4a370000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -861,23 +861,23 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 578
-      height: 920
-    m_Scale: {x: 0.71875, y: 0.71875}
-    m_Translation: {x: 289, y: 460}
+      height: 899
+    m_Scale: {x: 0.70234376, y: 0.70234376}
+    m_Translation: {x: 289, y: 449.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -402.08694
+      x: -411.4794
       y: -640
-      width: 804.1739
+      width: 822.9588
       height: 1280
     m_MinimalGUI: 1
-  m_defaultScale: 0.71875
+  m_defaultScale: 0.70234376
   m_LastWindowPixelSize: {x: 578, y: 920}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
