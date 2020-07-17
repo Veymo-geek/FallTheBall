@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 622eccd27aa7fc84eab5424b3adab6ef
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 2_Cylinder_1
+    100002: 4_Cylinder_1
+    100004: 4_Cylinder_2
+    100006: 4_Cylinder_3
+    100008: 6_Cylinder_1
+    100010: 6_Cylinder_2
+    100012: 6_Cylinder_3
+    100014: 8_Cylinder_4
+    100016: Center
+    100018: Cylinder_4
+    100020: Cylinder_4_1
+    100022: Cylinder_6
+    100024: Cylinder_8
+    100026: Cylinder_buuterfly
+    100028: Full_Cylinder
+    100030: Hight_Cylinder
+    100032: Middle_Cylinder
+    100034: Player
+    100036: //RootNode
+    400000: 2_Cylinder_1
+    400002: 4_Cylinder_1
+    400004: 4_Cylinder_2
+    400006: 4_Cylinder_3
+    400008: 6_Cylinder_1
+    400010: 6_Cylinder_2
+    400012: 6_Cylinder_3
+    400014: 8_Cylinder_4
+    400016: Center
+    400018: Cylinder_4
+    400020: Cylinder_4_1
+    400022: Cylinder_6
+    400024: Cylinder_8
+    400026: Cylinder_buuterfly
+    400028: Full_Cylinder
+    400030: Hight_Cylinder
+    400032: Middle_Cylinder
+    400034: Player
+    400036: //RootNode
+    2100000: No Name
+    2300000: 2_Cylinder_1
+    2300002: 4_Cylinder_1
+    2300004: 4_Cylinder_2
+    2300006: 4_Cylinder_3
+    2300008: 6_Cylinder_1
+    2300010: 6_Cylinder_2
+    2300012: 6_Cylinder_3
+    2300014: 8_Cylinder_4
+    2300016: Center
+    2300018: Cylinder_4
+    2300020: Cylinder_4_1
+    2300022: Cylinder_6
+    2300024: Cylinder_8
+    2300026: Cylinder_buuterfly
+    2300028: Full_Cylinder
+    2300030: Hight_Cylinder
+    2300032: Middle_Cylinder
+    2300034: Player
+    3300000: 2_Cylinder_1
+    3300002: 4_Cylinder_1
+    3300004: 4_Cylinder_2
+    3300006: 4_Cylinder_3
+    3300008: 6_Cylinder_1
+    3300010: 6_Cylinder_2
+    3300012: 6_Cylinder_3
+    3300014: 8_Cylinder_4
+    3300016: Center
+    3300018: Cylinder_4
+    3300020: Cylinder_4_1
+    3300022: Cylinder_6
+    3300024: Cylinder_8
+    3300026: Cylinder_buuterfly
+    3300028: Full_Cylinder
+    3300030: Hight_Cylinder
+    3300032: Middle_Cylinder
+    3300034: Player
+    4300000: Cylinder_4_1
+    4300002: Center
+    4300004: Player
+    4300006: Cylinder_buuterfly
+    4300008: Full_Cylinder
+    4300010: 8_Cylinder_4
+    4300012: 6_Cylinder_1
+    4300014: 6_Cylinder_2
+    4300016: 6_Cylinder_3
+    4300018: 4_Cylinder_1
+    4300020: 4_Cylinder_2
+    4300022: 4_Cylinder_3
+    4300024: 2_Cylinder_1
+    4300026: Hight_Cylinder
+    4300028: Middle_Cylinder
+    4300030: Cylinder_4
+    4300032: Cylinder_6
+    4300034: Cylinder_8
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
