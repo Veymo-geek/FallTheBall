@@ -28,7 +28,12 @@ public class settings : MonoBehaviour
     public GameObject obj_start;
     public GameObject obj_finish;
     public Transform smoke;
-    public List<GameObject> prefabList = new List<GameObject>();
+
+    public List<GameObject> platforms_lvl_1 = new List<GameObject>();
+    public List<GameObject> platforms_lvl_2 = new List<GameObject>();
+    public List<GameObject> platforms_lvl_3 = new List<GameObject>();
+    public List<GameObject> platforms_lvl_4 = new List<GameObject>();
+    public List<GameObject> platforms_lvl_5 = new List<GameObject>();
 
     private int numOfPlatform = 0;
     private static Color ballcolor;
@@ -83,7 +88,7 @@ public class settings : MonoBehaviour
         for (int i = 0; i < count; i++)
         {
             
-            generate(UnityEngine.Random.Range(0, prefabList.Count), height, UnityEngine.Random.Range(0, 360));
+            generate(UnityEngine.Random.Range(0, platforms_lvl_1.Count), height, UnityEngine.Random.Range(0, 360));
         }
         numOfPlatform--;
         Instantiate(obj_finish, new Vector3(0, numOfPlatform * height, 0), Quaternion.Euler(0f, 0f, 0f));
@@ -92,7 +97,7 @@ public class settings : MonoBehaviour
     private void generate(int platform, float height, int rotation)
     {
         numOfPlatform--;
-        Instantiate(prefabList[platform], new Vector3(0, numOfPlatform * height, 0), Quaternion.Euler(0f, rotation, 0f));
+        Instantiate(platforms_lvl_1[platform], new Vector3(0, numOfPlatform * height, 0), Quaternion.Euler(0f, rotation, 0f));
     }
 
     void Awake()
