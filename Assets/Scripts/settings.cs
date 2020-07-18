@@ -87,17 +87,33 @@ public class settings : MonoBehaviour
         Instantiate(obj_start, new Vector3(0, numOfPlatform * height, 0), Quaternion.Euler(0f, 150f, 0f));
         for (int i = 0; i < count; i++)
         {
-            
-            generate(UnityEngine.Random.Range(0, platforms_lvl_1.Count), height, UnityEngine.Random.Range(0, 360));
+            List platform = getPlatform(level);
+            generate(UnityEngine.Random.Range(0, platform.Count), height, UnityEngine.Random.Range(0, 360));
         }
         numOfPlatform--;
         Instantiate(obj_finish, new Vector3(0, numOfPlatform * height, 0), Quaternion.Euler(0f, 0f, 0f));
     }
 
-    private void generate(int platform, float height, int rotation)
+    private void getPlatform(float lvl)
+    {
+        List resPlatform;
+        float range = 0;
+        if (lvl <= 1)
+        {
+            resPlatform = platforms_lvl_1;
+        }
+        if (lvl > 1 && lvl <= 3) 
+        {
+            
+        }
+
+        return resPlatform;
+    }
+
+    private void generate(List listOfPlatforms, int platform, float height, int rotation)
     {
         numOfPlatform--;
-        Instantiate(platforms_lvl_1[platform], new Vector3(0, numOfPlatform * height, 0), Quaternion.Euler(0f, rotation, 0f));
+        Instantiate(listOfPlatforms[platform], new Vector3(0, numOfPlatform * height, 0), Quaternion.Euler(0f, rotation, 0f));
     }
 
     void Awake()
