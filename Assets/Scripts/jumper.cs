@@ -62,6 +62,7 @@ public class jumper : MonoBehaviour
             if (combo >= 3) {
                 Instantiate(settings.instance.smoke, collision.transform.position, Quaternion.identity);
                 Destroy(collision.transform.gameObject);
+                settings.instance.generatePlatforms();
                 settings.instance.setScore(jumper.combo);
                 sound_platform_combo.Play();
             }
@@ -81,6 +82,7 @@ public class jumper : MonoBehaviour
                 player.AddForce(Vector3.up * force, ForceMode.Impulse);
                 Instantiate(settings.instance.smoke, collision.transform.position, Quaternion.identity);
                 Destroy(collision.transform.parent.gameObject);
+                settings.instance.generatePlatforms();
                 settings.instance.setScore(jumper.combo);
                 sound_platform_combo.Play();
                 combo = 0;
@@ -96,14 +98,10 @@ public class jumper : MonoBehaviour
 
 
     void Update() {
-
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            settings.instance.win();
+            sound_platform_win.Play();
+        }
     }
-
-    private void transformJump()
-    {
-       
-
-    }
-
-    
 }

@@ -9,7 +9,6 @@ public class TriggerScript : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            
             jumper.combo++;
             jumper.instance.sound_platform_gouot.pitch *= jumper.combo * 0.02f + 1 ;
             jumper.instance.sound_platform_gouot.Play();
