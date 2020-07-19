@@ -14,6 +14,7 @@ public class TriggerScript : MonoBehaviour
             jumper.instance.sound_platform_gouot.pitch *= jumper.combo * 0.02f + 1 ;
             jumper.instance.sound_platform_gouot.Play();
             settings.instance.setScore(jumper.combo);
+            settings.instance.generatePlatforms();
             Instantiate(settings.instance.smoke, transform.parent.position, Quaternion.Euler(-90f,0f,0f));
             Destroy(transform.parent.gameObject);
         }
