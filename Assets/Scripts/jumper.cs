@@ -81,6 +81,8 @@ public class jumper : MonoBehaviour
                 player.velocity = Vector3.zero;
                 player.AddForce(Vector3.up * force, ForceMode.Impulse);
                 Instantiate(settings.instance.smoke, collision.transform.position, Quaternion.identity);
+
+                
                 Destroy(collision.transform.parent.gameObject);
                 settings.instance.generatePlatforms();
                 settings.instance.setScore(jumper.combo);

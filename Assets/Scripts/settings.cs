@@ -48,6 +48,7 @@ public class settings : MonoBehaviour
 
     void Start()
     {
+        level = PlayerPrefs.GetFloat("Level");
         num_platforms_id = 0;
         num_platforms = 10 + Convert.ToInt32(Math.Pow((level*70), 1 / 2.4));
         generatePlatforms();
