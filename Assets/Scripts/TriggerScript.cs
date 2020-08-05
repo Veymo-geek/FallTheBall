@@ -5,6 +5,11 @@ using UnityEngine;
 
 public class TriggerScript : MonoBehaviour
 {
+    public static TriggerScript instance;
+    void Awake()
+    {
+       instance = this;
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))

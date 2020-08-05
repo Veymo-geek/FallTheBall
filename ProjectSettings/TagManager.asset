@@ -8,6 +8,8 @@ TagManager:
   - gameOver
   - trigger
   - finish
+  - groundRotate
+  - gameOverRotate
   layers:
   - Default
   - TransparentFX

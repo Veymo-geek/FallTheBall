@@ -18,7 +18,6 @@ public class jumper : MonoBehaviour
 
     private Animation jump_animation;
     private float startPith;
-    private Vector3 basicTransform;
     private bool isjump = true;
 
     // Start is called before the first frame update
@@ -29,7 +28,6 @@ public class jumper : MonoBehaviour
         player = GetComponent<Rigidbody>();
         platform = GetComponent<Rigidbody>();
         startPith = sound_platform_gouot.pitch;
-        basicTransform = player.transform.localScale;
         jump_animation = GetComponent<Animation>();
     }
     void Awake()
@@ -81,8 +79,6 @@ public class jumper : MonoBehaviour
                 player.velocity = Vector3.zero;
                 player.AddForce(Vector3.up * force, ForceMode.Impulse);
                 Instantiate(settings.instance.smoke, collision.transform.position, Quaternion.identity);
-
-                
                 Destroy(collision.transform.parent.gameObject);
                 settings.instance.generatePlatforms();
                 settings.instance.setScore(jumper.combo);
