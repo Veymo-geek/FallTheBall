@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Advertisements;
+
 
 public class settings : MonoBehaviour
 {
@@ -35,7 +37,6 @@ public class settings : MonoBehaviour
     public List<GameObject> platforms_lvl_4 = new List<GameObject>();
     public List<GameObject> platforms_lvl_5 = new List<GameObject>();
 
-    private int numOfPlatform = 0;
     private static Color ballcolor;
     private int num_platforms = 10;
     private static int num_platforms_id = 0;
@@ -60,6 +61,10 @@ public class settings : MonoBehaviour
         textActive();
         Time.timeScale = gameSpeed;
         StartCoroutine(colorset());
+
+        if (Advertisement.isSupported) {
+            Advertisement.Initialize("3796815", false);
+        }
     }
 
     private void textActive()
@@ -206,6 +211,10 @@ public class settings : MonoBehaviour
 
     internal void died()
     {
+        if (Advertisement.IsReady())
+        {
+            Advertisement.Show("video");
+        }
         gameOver = true;
         Time.timeScale = 0;
         gameOvertext.SetActive(true);

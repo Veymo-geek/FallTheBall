@@ -59,7 +59,7 @@ public class jumper : MonoBehaviour
             }
             if (combo >= 3) {
                 Instantiate(settings.instance.smoke, collision.transform.position, Quaternion.identity);
-                Destroy(collision.transform.gameObject);
+                Destroy(collision.transform.root.gameObject);
                 settings.instance.generatePlatforms();
                 settings.instance.setScore(jumper.combo);
                 sound_platform_combo.Play();
@@ -78,11 +78,13 @@ public class jumper : MonoBehaviour
             {
                 player.velocity = Vector3.zero;
                 player.AddForce(Vector3.up * force, ForceMode.Impulse);
+
                 Instantiate(settings.instance.smoke, collision.transform.position, Quaternion.identity);
-                Destroy(collision.transform.parent.gameObject);
+                Destroy(collision.transform.root.gameObject);
                 settings.instance.generatePlatforms();
                 settings.instance.setScore(jumper.combo);
                 sound_platform_combo.Play();
+
                 combo = 0;
                 sound_platform_gouot.pitch = startPith;
             }
